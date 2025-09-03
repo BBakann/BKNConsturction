@@ -14,10 +14,10 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Hızlı Linkler</h4>
           <ul>
-            <li><Link to="/">Ana Sayfa</Link></li>
-            <li><Link to="/about">Hakkımızda</Link></li>
-            <li><Link to="/contact">İletişim</Link></li>
-            <li><Link to="/projects">Projeler</Link></li>
+            <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Ana Sayfa</Link></li>
+            <li><Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Hakkımızda</Link></li>
+            <li><Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>İletişim</Link></li>
+            <li><Link to="/projects" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Projeler</Link></li>
           </ul>
         </div>
         

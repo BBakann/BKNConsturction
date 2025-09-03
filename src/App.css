@@ -9,6 +9,23 @@
   margin-top: 80px; 
 }
 
+.route-fade {
+  animation: routeFadeIn 280ms ease-out;
+}
+
+@keyframes routeFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
 /* Genel stil sıfırlama */
 * {
   margin: 0;
