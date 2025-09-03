@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import aboutImage from '../assets/aboutcontent.jpg'
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
           <div className="about-text">
             <h2>BKN Global İnşaat</h2>
             <p>
-              2003 yılında kurulan BKN Global İnşaat, Türkiye'nin önde gelen inşaat firmalarından biridir. 
+               BKN Global İnşaat, Türkiye'nin önde gelen inşaat firmalarından biridir. 
               Müşteri memnuniyeti ve kalite odaklı yaklaşımımızla, her projede mükemmelliği hedefliyoruz.
             </p>
             <p>
@@ -26,29 +27,25 @@ const About = () => {
           </div>
           
           <div className="about-image">
-            <img src="/src/assets/aboutcontent.jpg" alt="BKN Global Yapı İnşaat" />
+            <img src={aboutImage} alt="BKN Global Yapı İnşaat" />
           </div>
         </div>
         
         <div className="about-stats">
           <div className="stat-item">
-            <div className="stat-icon">🏗️</div>
-            <h3>500+</h3>
+            <h3>20+</h3>
             <p>Tamamlanan Proje</p>
           </div>
           <div className="stat-item">
-            <div className="stat-icon">⏰</div>
-            <h3>20+</h3>
+            <h3>30</h3>
             <p>Yıllık Deneyim</p>
           </div>
           <div className="stat-item">
-            <div className="stat-icon">😊</div>
-            <h3>1000+</h3>
-            <p>Mutlu Müşteri</p>
+            <h3>100'lerce</h3>
+            <p>Ev Sahibi Müşteri</p>
           </div>
           <div className="stat-item">
-            <div className="stat-icon">👥</div>
-            <h3>50+</h3>
+            <h3>Kaliteli</h3>
             <p>Uzman Ekip</p>
           </div>
         </div>
@@ -59,22 +56,18 @@ const About = () => {
           <h2>Değerlerimiz</h2>
           <div className="values-grid">
             <div className="value-card">
-              <div className="value-icon">⭐</div>
               <h3>Kalite</h3>
               <p>Her projede en yüksek kalite standartlarını sağlıyoruz.</p>
             </div>
             <div className="value-card">
-              <div className="value-icon">🤝</div>
               <h3>Güvenilirlik</h3>
               <p>Müşterilerimizin güvenini kazanmak en büyük önceliğimiz.</p>
             </div>
             <div className="value-card">
-              <div className="value-icon">💡</div>
               <h3>İnovasyon</h3>
               <p>Sürekli gelişim ve yenilikçi çözümler üretiyoruz.</p>
             </div>
             <div className="value-card">
-              <div className="value-icon">🌱</div>
               <h3>Sürdürülebilirlik</h3>
               <p>Çevre dostu ve sürdürülebilir projeler geliştiriyoruz.</p>
             </div>

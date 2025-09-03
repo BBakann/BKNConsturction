@@ -5,7 +5,7 @@
 .contact-hero {
   height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-              url('/src/assets/contactcontent.jpg') center/cover;
+              url('../assets/homecontent.jpg') center/cover;
   display: flex;
   align-items: center;
   justify-content: center;

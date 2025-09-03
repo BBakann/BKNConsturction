@@ -17,14 +17,15 @@ const Footer = () => {
             <li><Link to="/">Ana Sayfa</Link></li>
             <li><Link to="/about">Hakkımızda</Link></li>
             <li><Link to="/contact">İletişim</Link></li>
+            <li><Link to="/projects">Projeler</Link></li>
           </ul>
         </div>
         
         <div className="footer-section">
           <h4>İletişim Bilgileri</h4>
-          <p>📧 info@bknglobal.com</p>
-          <p>📞 +90 212 555 0123</p>
-          <p>📍 İstanbul, Türkiye</p>
+          <p>bknglobalyapi@gmail.com</p>
+          <p> +90 212 555 0123</p>
+          <p> Ankara, Türkiye</p>
         </div>
       </div>
       
