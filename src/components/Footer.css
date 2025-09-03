@@ -77,8 +77,25 @@
     text-align: center;
     padding: 2rem 1rem;
   }
+  .footer-section h3 { font-size: 1.3rem; }
+  .footer-section h4 { font-size: 1.1rem; }
+  .footer-section p  { font-size: 0.95rem; }
+  .footer-section ul li a { font-size: 0.95rem; }
+  .footer-section ul li { margin-bottom: 0.4rem; }
+  .footer-content { gap: 1rem; }
+  .footer { border-top-width: 0.5px; }
   
   .footer-bottom {
-    padding: 1rem;
+    padding: 0.75rem 1rem;
   }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 1.5rem 1rem;
+  }
+  .footer-section h3 { font-size: 1.15rem; }
+  .footer-section h4 { font-size: 1rem; }
+  .footer-section p  { font-size: 0.9rem; }
+  .footer-section ul li a { font-size: 0.9rem; }
 }

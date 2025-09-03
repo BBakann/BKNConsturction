@@ -6,8 +6,8 @@
   background: var(--header-bg);
   backdrop-filter: blur(20px);
   z-index: 1000;
-  box-shadow: var(--header-shadow);
-  border-bottom: 1px solid var(--border-color);
+  box-shadow: none;
+  border-bottom: none;
   transition: all 0.3s ease;
 }
 
