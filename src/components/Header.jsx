@@ -30,7 +30,7 @@ const Header = () => {
           <ul className="nav-list">
             <li><Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>Ana Sayfa</Link></li>
             <li><Link to="/about" className="nav-link" onClick={() => setIsMenuOpen(false)}>Hakkımızda</Link></li>
-            <li><Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>Projeler</Link></li>
+            <li><Link to="/projects" className="nav-link" onClick={() => setIsMenuOpen(false)}>Projeler</Link></li>
             <li><Link to="/contact" className="nav-link" onClick={() => setIsMenuOpen(false)}>İletişim</Link></li>
           </ul>
         </nav>

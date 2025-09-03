@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  height: 140px;
+  height: 120px;
 }
 
 .logo {
@@ -48,21 +48,22 @@
 }
 
 .logo h2 {
-  color: var(--primary-color);
+  color: var(--text-primary);
   margin: 0;
   font-size: 1.8rem;
   font-weight: 700;
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: none;
   transition: all 0.3s ease;
   line-height: 1.2;
   display: flex; 
   align-items: center; 
+}
+
+.dark .logo h2 {
+  color: var(--primary-color);
 }
 
 .logo h2:hover {
@@ -88,7 +89,7 @@
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--primary-hover);
 }
 
 .nav-link::after {

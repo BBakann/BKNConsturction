@@ -32,21 +32,21 @@ const About = () => {
         </div>
         
         <div className="about-stats">
-          <div className="stat-item">
-            <h3>20+</h3>
-            <p>Tamamlanan Proje</p>
-          </div>
-          <div className="stat-item">
-            <h3>30</h3>
-            <p>Yıllık Deneyim</p>
-          </div>
-          <div className="stat-item">
-            <h3>100'lerce</h3>
+        <div className="stat-item">
+            <h3>10'larca</h3>
             <p>Ev Sahibi Müşteri</p>
           </div>
           <div className="stat-item">
             <h3>Kaliteli</h3>
             <p>Uzman Ekip</p>
+          </div>
+          <div className="stat-item">
+            <h3>İnşaat</h3>
+            <p>İhtiyacınıza Göre</p>
+          </div>
+          <div className="stat-item">
+            <h3>Projeleri</h3>
+            <p>Uzman Ekiplerimizle</p>
           </div>
         </div>
       </section>
