@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import housingImg from '../assets/homecontent.jpg'
+import ofisImg from '../assets/ofis.jpeg'
+import ofis2Img from '../assets/ofis2.jpeg'
 
 const Home = () => {
   return (
@@ -46,14 +48,14 @@ const Home = () => {
           </div>
           <div className="service-card">
             <div className="service-image">
-              <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&h=800&fit=crop" alt="Ticari Projeler" />
+              <img src={ofisImg} alt="Ticari Projeler" />
             </div>
             <h3>Ticari Projeler</h3>
             <p>İş merkezleri ve ofis binaları</p>
           </div>
           <div className="service-card">
             <div className="service-image">
-              <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=1200&h=800&fit=crop" alt="Emlak Projeleri" />
+              <img src={ofis2Img} alt="Emlak Projeleri" />
             </div>
             <h3>Emlak Projeleri</h3>
             <p>Lüks villa ve rezidans projeleri</p>

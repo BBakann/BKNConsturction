@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import aboutImage from '../assets/aboutcontent.jpg'
+const aboutImageUrl = 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=80'
 
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
           </div>
           
           <div className="about-image">
-            <img src={aboutImage} alt="BKN Global Yapı İnşaat" />
+            <img src={aboutImageUrl} alt="BKN Global Yapı İnşaat" />
           </div>
         </div>
         

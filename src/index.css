@@ -21,6 +21,7 @@
   --theme-toggle-bg: #f3f4f6;
   --theme-toggle-color: #6b7280;
   --theme-toggle-hover-bg: #e5e7eb;
+  --card-bg: #ffffff;
 }
 
 .dark {
@@ -44,6 +45,7 @@
   --theme-toggle-bg: #2a2a2a;
   --theme-toggle-color: #d1d5db;
   --theme-toggle-hover-bg: #404040;
+  --card-bg: #1a1a1a;
 }
 
 * {
