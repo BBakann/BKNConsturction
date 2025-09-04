@@ -33,7 +33,7 @@ const About = () => {
         
         <div className="about-stats">
         <div className="stat-item">
-            <h3>10'larca</h3>
+            <h3>Onlarca</h3>
             <p>Ev Sahibi Müşteri</p>
           </div>
           <div className="stat-item">

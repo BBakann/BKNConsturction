@@ -107,6 +107,21 @@
   width: 100%;
 }
 
+/* Daha şık hover ve aktif durumlar */
+.nav-link {
+  border-radius: 8px;
+  padding: 0.5rem 0.25rem;
+}
+
+.nav-link:hover {
+  color: var(--primary-hover);
+  background: color-mix(in oklab, var(--primary-color) 12%, transparent);
+}
+
+.dark .nav-link:hover {
+  background: color-mix(in oklab, var(--primary-color) 18%, transparent);
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -221,23 +236,23 @@
   }
 
   .logo h2 {
-    font-size: 1.1rem;
+    font-size: 1rem; /* hafif küçültme */
     line-height: 1.1;
   }
   
   .logo-image {
-    width: 56px;
-    height: 56px;
+    width: 52px; /* hafif küçültme */
+    height: 52px;
   }
 
   .nav-link {
     font-size: 0.95rem;
-    padding: 0.5rem 0;
+    padding: 0.6rem 0.25rem;
   }
 
   .theme-toggle {
-    width: 36px;
-    height: 36px;
+    width: 34px; /* hafif küçültme */
+    height: 34px;
     font-size: 0.9rem;
   }
 }

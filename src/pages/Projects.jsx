@@ -27,6 +27,7 @@ import incek2 from '../assets/incek2.jpg'
 import incek3 from '../assets/incek3.jpg'
 import incekVideo from '../assets/incek.mp4'
 import eskisehirVideo from '../assets/eskisehiryolu.mp4'
+const projectsHeroImage = 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80'
 
 const projects = [
   {
@@ -40,7 +41,7 @@ const projects = [
       { label: 'Tip', value: '1+1 / 2+1 / 3+1' },
       { label: 'Durum', value: 'Planlama' },
     ],
-    description: 'Şehrin merkezinde yükselen, modern mimari ile geniş sosyal alanları birleştiren prestijli bir yaşam projesi.',
+    description: 'Şehrin merkezinde yükselen, modern mimari ile geniş sosyal alanları birleştiren prestijli bir yaşam projesi. Akıllı bina altyapısı, yeraltı otoparkı, peyzaj alanları ve fitness/stüdyo gibi sosyal donatılarla yaşam kalitesini artırmayı hedefler. Sürdürülebilir malzeme seçimi ve enerji verimliliği ön plandadır.',
     completed: true,
   },
   {
@@ -53,7 +54,7 @@ const projects = [
       { label: 'Kategori', value: 'Otel' },
       { label: 'Durum', value: 'Geliştirme' },
     ],
-    description: 'Konfor, zarafet ve fonksiyonelliği bir araya getiren, misafir memnuniyetini odak alan otel projesi.',
+    description: 'Konfor, zarafet ve fonksiyonelliği bir araya getiren, misafir memnuniyetini odak alan otel projesi. Geniş lobi ve lounge alanları, çok amaçlı toplantı salonları, spa & wellness ve fine-dining restoranlarıyla 7/24 deneyim sunar. Operasyon verimliliği için back-of-house akışı optimize edilmiştir.',
     completed: true,
   },
   {
@@ -67,7 +68,7 @@ const projects = [
       { label: 'Daire Tipi', value: '2+1' },
       { label: 'Durum', value: 'Planlama' },
     ],
-    description: 'Ulaşım akslarının merkezinde, akılcı planlanmış 2+1 dairelerden oluşan modern konut projesi.',
+    description: 'Ulaşım akslarının merkezinde, akılcı planlanmış 2+1 dairelerden oluşan modern konut projesi. Güneş alan cephe kurgusu, depolama çözümleri, yerden ısıtma altyapısı ve fonksiyonel mutfak tasarımlarıyla günlük yaşamı kolaylaştırır. Çocuk oyun alanı ve açık spor sahaları bulunur.',
     completed: true,
   },
   {
@@ -81,7 +82,7 @@ const projects = [
       { label: 'Daire Tipi', value: '3+1' },
       { label: 'Durum', value: 'Planlama' },
     ],
-    description: 'Aileler için ferah yaşam alanları sunan, 3+1 daire konseptinde sakin bir site.',
+    description: 'Aileler için ferah yaşam alanları sunan, 3+1 daire konseptinde sakin bir site. Geniş balkonlar, ebeveyn banyosu, site içi yürüyüş yolları ve kontrollü güvenlik sistemiyle huzurlu bir yaşam sağlar. Komşuluk kültürünü destekleyen yarı açık sosyal alanlar bulunur.',
     completed: true,
   },
   {
@@ -95,7 +96,7 @@ const projects = [
       { label: 'Daire Tipi', value: '1+1 & 3+1' },
       { label: 'Durum', value: 'Planlama' },
     ],
-    description: 'İncek bölgesinin seçkin lokasyonunda, 1+1 ve 3+1 seçenekleriyle butik bir yaşam deneyimi.',
+    description: 'İncek bölgesinin seçkin lokasyonunda, 1+1 ve 3+1 seçenekleriyle butik bir yaşam deneyimi. Mimari kurguda doğal ışık, iç-dış süreklilik ve sessiz cepheler önceliklendirilmiştir. Otopark, misafir otoparkı, bisiklet parkı ve depolama alanlarıyla tamamlanır.',
     completed: true,
   },
 ]
@@ -107,12 +108,13 @@ const Projects = () => {
 
   return (
     <section className="projects-section">
-      <div className="container">
-        <header className="projects-header">
+      <div className="projects-hero" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${projectsHeroImage})` }}>
+        <div className="projects-hero-content">
           <h1>Projelerimiz</h1>
           <p>Modern mimari, yüksek kalite ve konforu bir araya getiren projelerimiz.</p>
-        </header>
-
+        </div>
+      </div>
+      <div className="container">
         <div className="projects-grid">
           {projects.map(p => (
             <ProjectCard

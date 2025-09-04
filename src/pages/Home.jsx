@@ -1,17 +1,19 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Home.css'
 import housingImg from '../assets/homecontent.jpg'
 import ofisImg from '../assets/ofis.jpeg'
 import ofis2Img from '../assets/ofis2.jpeg'
 
 const Home = () => {
+  const navigate = useNavigate()
   return (
     <div className="home">
       <section className="hero">
         <div className="hero-content">
           <h1>BKN Global Yapı İnşaat</h1>
           <p>Kaliteli ve güvenilir inşaat projeleri</p>
-          <button className="cta-button">Projelerimizi İnceleyin</button>
+          <button className="cta-button" onClick={() => navigate('/projects')}>Projelerimizi İnceleyin</button>
         </div>
       </section>
       
